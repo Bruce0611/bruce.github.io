@@ -4,7 +4,13 @@
   <meta charset="UTF-8">
   <title>專業領域 | 你的姓名</title>
   <link rel="stylesheet" href="style.css">
-  <style>body{background:url('professional_bg.jpg') center top/cover no-repeat;}</style>
+  <style>
+    body {background: url('professional_bg.jpg') center top/cover no-repeat;}
+    .category {margin: 48px auto 32px; max-width: 700px; background: rgba(255,255,255,0.88); border-radius: 12px; padding: 32px 36px 28px; box-shadow: 0 4px 24px rgba(0,0,0,0.06);}
+    .category h2 {font-size: 2.1em; margin-bottom: 12px;}
+    .category h3 {color: #337ab7; margin-top: 24px; font-size: 1.4em;}
+    .category ul {margin-top: 8px;}
+  </style>
 </head>
 <body>
   <header>
@@ -20,13 +26,33 @@
     </nav>
   </header>
   <main>
-    <section>
+    <section class="category">
       <h2>專業領域</h2>
+
+      <h3>土木工程</h3>
+      <!-- 細項區開始：在此區塊下方新增細項，例如 -->
       <ul>
-        <li>土木工程（結構/風洞/CFD）</li>
-        <li>AI與程式開發（Python, MATLAB）</li>
-        <!-- 後續可根據你的經歷增補細項 -->
+        <!-- <li>結構設計、結構分析</li>
+        <li>土木工程專題研究</li> -->
       </ul>
+      <!-- 細項區結束 -->
+
+      <h3>風洞實驗</h3>
+      <!-- 細項區開始：在此區塊下方新增細項，例如 -->
+      <ul>
+        <!-- <li>高層建築風洞模擬</li>
+        <li>壓力/速度實驗設計</li> -->
+      </ul>
+      <!-- 細項區結束 -->
+
+      <h3>AI與程式開發</h3>
+      <!-- 細項區開始：在此區塊下方新增細項，例如 -->
+      <ul>
+        <!-- <li>MATLAB/ Python 數據分析</li>
+        <li>機器學習應用</li> -->
+      </ul>
+      <!-- 細項區結束 -->
+
     </section>
   </main>
 </body>
